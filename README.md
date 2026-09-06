@@ -1,4 +1,4 @@
-﻿# ðŸš— Auto Escola Neon Cotia â€” Portal Web Institucional & CaptaÃ§Ã£o de Alunos
+# 🚗 Auto Escola Neon Cotia — Driving School Portal & Student Acquisition Platform
 
 <p align="center">
   <img src="https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React 18" />
@@ -10,97 +10,60 @@
 
 ---
 
-## ðŸ“Œ VisÃ£o Geral
+## 📌 Overview
 
-O **Auto Escola Neon Cotia** Ã© o website institucional e plataforma de atraÃ§Ã£o de alunos desenvolvido sob medida para o Centro de FormaÃ§Ã£o de Condutores (CFC) **Auto Escola Neon**, localizado em Cotia - SP.
+**Auto Escola Neon Cotia** is a modern institutional web portal and student acquisition funnel engineered for **Auto Escola Neon**, an established driver training center (CFC) located in Cotia, São Paulo, Brazil.
 
-ConstruÃ­do com foco em alta taxa de conversÃ£o (CRO), design responsivo moderno e usabilidade fluida, o portal destaca a metodologia de direÃ§Ã£o defensiva, a frota moderna de veÃ­culos e oferece canais diretos para consulta de status de CNH, agendamento de aulas prÃ¡ticas e atendimento via WhatsApp.
-
----
-
-## âœ¨ Funcionalidades Principais
-
-- ðŸŽï¸ **ApresentaÃ§Ã£o de ServiÃ§os & Categorias:**
-  - **1Âª HabilitaÃ§Ã£o (Carro / Categoria B):** Metodologia prÃ¡tica passo a passo.
-  - **AdiÃ§Ã£o ou MudanÃ§a de Categoria (Moto / Categoria A):** Treinamento em pista e trÃ¢nsito.
-  - **ReabilitaÃ§Ã£o e Reciclagem de Condutores:** Suporte a CNH suspensa ou cassada.
-  - **Aulas para Habilitados:** MÃ³dulo focado na superaÃ§Ã£o do medo de dirigir e aperfeiÃ§oamento.
-- ðŸ” **MÃ³dulo de Consulta de Status de CNH:**
-  - Interface com mÃ¡scara de CPF e validaÃ§Ã£o em tempo real que conecta o interessado diretamente aos consultores pelo WhatsApp jÃ¡ com a solicitaÃ§Ã£o prÃ©-formatada.
-- ðŸ¢ **Infraestrutura e Galeria da Frota:**
-  - SeÃ§Ã£o com exibiÃ§Ã£o dos veÃ­culos com ar-condicionado, direÃ§Ã£o hidrÃ¡ulica e salas climatizadas para aulas teÃ³ricas.
-- ðŸ“ **LocalizaÃ§Ã£o Interativa (Google Maps):**
-  - IntegraÃ§Ã£o visual de mapa e rotas para fÃ¡cil acesso dos alunos da regiÃ£o de Cotia.
-- ðŸ’¬ **Funil de ConversÃ£o WhatsApp:**
-  - BotÃµes de chamada para aÃ§Ã£o (CTA) contextuais espalhados estrategicamente ao longo da navegaÃ§Ã£o.
+Built with high-conversion landing page principles (CRO), fluid responsiveness, and rapid loading, the platform showcases practical driving instruction, modern vehicle fleets, and direct channels for driver's license status checks and WhatsApp class scheduling.
 
 ---
 
-## ðŸ› ï¸ Stack TecnolÃ³gica
+## ✨ Key Features
 
-| Camada | Tecnologia |
+- 🏎️ **Service & Category Showcase:**
+  - **Category B (Automobile):** Practical step-by-step driving training.
+  - **Category A (Motorcycle):** Track handling, maneuvering, and traffic safety.
+  - **License Rehabilitation & Refresher:** Dedicated support for suspended or revoked licenses.
+  - **Overcoming Driving Anxiety:** Specialized patient instruction modules.
+- 🔍 **Interactive License Status Checker:**
+  - Masked national ID (CPF) input validating user data and initiating pre-formatted inquiries directly via WhatsApp.
+- 🏢 **Fleet & Infrastructure Gallery:**
+  - Highlighting air-conditioned modern training vehicles and comfortable classrooms.
+- 📍 **Interactive Location Map:**
+  - Google Maps integration guiding new students to physical branch facilities in Cotia.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
 |---|---|
-| **Framework Frontend** | [React 18](https://react.dev/) + [Vite](https://vitejs.dev/) |
-| **Roteamento** | [React Router DOM v7](https://reactrouter.com/) |
-| **Linguagem** | [TypeScript](https://www.typescriptlang.org/) |
-| **EstilizaÃ§Ã£o** | [Tailwind CSS](https://tailwindcss.com/) + PostCSS |
-| **Ãcones** | [Lucide React](https://lucide.dev/) |
-| **UtilitÃ¡rios** | `clsx` para concatenaÃ§Ã£o dinÃ¢mica de classes CSS |
+| **Frontend Framework** | React 18 + Vite |
+| **Routing** | React Router DOM v7 |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS + PostCSS |
+| **Icons & Utilities** | Lucide React, `clsx` |
 
 ---
 
-## ðŸ“ Estrutura do RepositÃ³rio
+## 🚀 Getting Started
 
 ```bash
-autoescolaneon/
-â”œâ”€â”€ public/                 # Imagens da frota, backgrounds e favicons
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ components/         # Blocos da landing page
-â”‚   â”‚   â”œâ”€â”€ Header.tsx      # Barra de navegaÃ§Ã£o responsiva com menu mobile
-â”‚   â”‚   â”œâ”€â”€ Hero.tsx        # SeÃ§Ã£o principal de impacto com CTA
-â”‚   â”‚   â”œâ”€â”€ Benefits.tsx    # Diferenciais do CFC Neon
-â”‚   â”‚   â”œâ”€â”€ Services.tsx    # Cards com os cursos e categorias
-â”‚   â”‚   â”œâ”€â”€ CNHStatus.tsx   # Ferramenta interativa de consulta de status
-â”‚   â”‚   â”œâ”€â”€ Infrastructure.tsx # Galeria de estrutura e frota
-â”‚   â”‚   â”œâ”€â”€ Testimonials.tsx   # Prova social e avaliaÃ§Ãµes de alunos
-â”‚   â”‚   â”œâ”€â”€ GoogleMaps.tsx     # Mapa interativo de localizaÃ§Ã£o
-â”‚   â”‚   â””â”€â”€ Footer.tsx         # RodapÃ© com horÃ¡rios de atendimento e contatos
-â”‚   â”œâ”€â”€ pages/
-â”‚   â”‚   â””â”€â”€ Home.tsx        # Montagem da pÃ¡gina inicial completa
-â”‚   â”œâ”€â”€ App.tsx             # ConfiguraÃ§Ã£o de rotas
-â”‚   â””â”€â”€ main.tsx            # Entry point da aplicaÃ§Ã£o
-â”œâ”€â”€ package.json
-â””â”€â”€ vite.config.ts
-```
-
----
-
-## ðŸš€ Como Executar Localmente
-
-### PrÃ©-requisitos
-- Node.js `>= 18.0.0`
-- Gerenciador de pacotes `npm` ou `pnpm`
-
-```bash
-# Clone o repositÃ³rio
+# Clone the repository
 git clone https://github.com/felipedutrag/autoescolaneon.git
-
-# Acesse o diretÃ³rio
 cd autoescolaneon
 
-# Instale as dependÃªncias
+# Install dependencies
 npm install
 
-# Execute o servidor local de desenvolvimento
+# Start local dev server
 npm run dev
 ```
 
-Abra o endereÃ§o gerado (normalmente `http://localhost:5173`) no navegador.
-
 ---
 
-## ðŸ‘¤ Autor
+## 👤 Author
 
-Desenvolvido por **Felipe Dutra**  
+Developed by **Felipe Dutra**  
 - **GitHub:** [@felipedutrag](https://github.com/felipedutrag)  
-- **E-mail:** [felipedutra@outlook.com](mailto:felipedutra@outlook.com)
+- **Email:** [felipedutra@outlook.com](mailto:felipedutra@outlook.com)
